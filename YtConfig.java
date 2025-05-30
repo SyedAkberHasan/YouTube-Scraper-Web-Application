@@ -1,4 +1,4 @@
-package com.shivamsharma.ytscrapper.config;
+package com.syedakber.ytscrapper.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
