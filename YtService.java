@@ -1,8 +1,8 @@
-package com.shivamsharma.ytscrapper.service;
+package com.syedakber.ytscrapper.service;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.shivamsharma.ytscrapper.config.YtConfig;
+import com.syedakber.ytscrapper.config.YtConfig;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
