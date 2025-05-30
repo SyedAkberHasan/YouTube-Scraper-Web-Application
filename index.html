@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yt-Scrapper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="font-sans text-white bg-gray-800">
+
+    <div class="flex items-center justify-center h-screen">
+        <form th:action="@{/vdetails}" method="post" class="bg-gray-900 p-8 rounded shadow-md">
+            <h1 class="text-8xl font-bold mb-6 text-center text-white">YouTube Video Details</h1>
+            <label for="videoLink" class="block text-xl font-medium text-gray-300 mb-2">Enter YouTube Video Link:</label>
+            <input type="text" id="videoLink" name="videoLink" required
+                   class="w-full border rounded-md py-2 px-3 text-gray-100 leading-tight bg-gray-700 focus:outline-none focus:shadow-outline">
+            <button type="submit"
+                    class="mt-4 bg-blue-400 text-2xl hover:bg-blue-700 text-white font-bold py-2 px-8 rounded">
+                Get Details
+            </button>
+        </form>
+    </div>
+
+</body>
+</html>
